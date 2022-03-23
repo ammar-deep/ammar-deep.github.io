@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Research Associate at the [System Software lab](https://ss.ssu.ac.kr/), where I work on machine learning-based image generation. I am a doctoral candidate in the Department of Computer Science and Engineering at Soongsil University in Seoul, South Korea, advised by [Prof. Jaeyoung Choi](https://scholar.google.com/citations?user=YJ7fWWgAAAAJ&hl=en). I received B.S. in Software Engineering and M.S. in Computer Science, at Interantional Islamic University and Soongsil University respectively. I was funded by International Graduate Research Scolarship by Soongsil University for my M.S. and Ph.D. study.
+I am a Research Associate at the [System Software lab](https://ss.ssu.ac.kr/), where I work on machine learning-based image generation. I am a doctoral candidate in the Department of Computer Science and Engineering at Soongsil University, Seoul, South Korea, advised by [Prof. Jaeyoung Choi](https://scholar.google.com/citations?user=YJ7fWWgAAAAJ&hl=en). I received B.S. in Software Engineering and M.S. in Computer Science, at Interantional Islamic University and Soongsil University respectively. I was funded by International Graduate Research Scolarship by Soongsil University for my M.S. and Ph.D. study.
 
 Research
 ======
