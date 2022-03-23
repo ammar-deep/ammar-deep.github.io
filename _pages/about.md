@@ -31,4 +31,4 @@ Talks
 
 CV
 ======
-Here's my [CV](https://github.com/ammar-deep/ammar-deep.github.io/blob/master/files/CV_AmmarUlHassan_20220322.pdf)
+Here's my [CV]({{ site.url }}{{ site.baseurl }}/files/CV_AmmarUlHassan_20220322.pdf)
