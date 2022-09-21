@@ -30,4 +30,4 @@ Talks
 
 CV
 ======
-Here's my [CV]({{ site.url }}{{ site.baseurl }}/files/CV_AmmarUlHassan_20220322.pdf)
+Here's my [CV]({{ site.url }}{{ site.baseurl }}/files/CV_AmmarUlHassan_20220820.pdf)
