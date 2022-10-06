@@ -20,8 +20,8 @@ Published Research
 
 Research Under review
 ======
-One first authored paper is under review in **AAAI 2023**. It has passed Phase1 review. 
-Second first authored paper is under review in **Pattern Recognition Letters** journal. 
+-  One first authored paper is under review in **AAAI 2023**. It has passed Phase1 review. 
+-  Second first authored paper is under review in **Pattern Recognition Letters** journal. 
 
 Teaching
 ======
