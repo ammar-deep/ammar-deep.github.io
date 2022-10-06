@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Research Associate at the [System Software lab](https://ss.ssu.ac.kr/), where I work on machine learning-based image generation. I am a doctoral candidate in the Department of Computer Science and Engineering at Soongsil University, Seoul, South Korea, advised by [Prof. Jaeyoung Choi](https://scholar.google.com/citations?user=YJ7fWWgAAAAJ&hl=en). I received B.S. in Software Engineering and M.S. in Computer Science, at Interantional Islamic University and Soongsil University respectively. I was funded by International Graduate Research scholarship by Soongsil University for my M.S. and Ph.D. study.
+I am a Research Associate at the [System Software lab](https://ss.ssu.ac.kr/), where I work on machine learning-based image generation. Mainly I am intereseted in Unsupervised image generation using GANs, Self-supervised learning, Text synthesis and manipulation. I am a doctoral candidate in the Department of Computer Science and Engineering at Soongsil University, Seoul, South Korea, advised by [Prof. Jaeyoung Choi](https://scholar.google.com/citations?user=YJ7fWWgAAAAJ&hl=en). I received B.S. in Software Engineering and M.S. in Computer Science, at Interantional Islamic University and Soongsil University respectively. I was funded by International Graduate Research scholarship by Soongsil University for my M.S. and Ph.D. study.
 
 Published Research
 ======
@@ -17,6 +17,11 @@ Published Research
 <figure style="width: 120px"> <img src="https://raw.githubusercontent.com/ammar-deep/ammar-deep.github.io/master/images/UFFG.png" alt=""> </figure> **Unpaired font family synthesis using conditional generative adversarial networks**<br/>**Ammar Ul Hassan**, Hammad Ahmed, and Jaeyoung Choi<br/>Knowledge-Based Systems **(KBS 2021)** <br/> [paper](https://www.sciencedirect.com/science/article/pii/S0950705121005669)
 <figure style="width: 120px"> <img src="https://raw.githubusercontent.com/ammar-deep/ammar-deep.github.io/master/images/SKFont.png" alt=""> </figure>**SKFont: skeleton-driven Korean font generator with conditional deep adversarial networks**<br/>Debbie Honghee Ko, **Ammar Ul Hassan**, Jungjae Suk, and Jaeyoung Choi<br/>International Journal on Document Analysis and Recognition **(IJDAR 2021)** <br/>[Code](https://github.com/ammar-deep/SKFont)[paper](https://link.springer.com/article/10.1007/s10032-021-00374-4)
 <figure style="width: 120px"> <img src="https://raw.githubusercontent.com/ammar-deep/ammar-deep.github.io/master/images/SkleGAN.png" alt=""> </figure>**SkelGAN: A Font Image Skeletonization Method**<br/>Debbie Honghee Ko, **Ammar Ul Hassan**, Saima Majeed, and Jaeyoung Choi<br/>Journal of Information Processing Systems **(JIPS 2021)** <br/>[Code](https://github.com/ammar-deep/SkelGAN)[paper](https://www.koreascience.or.kr/article/JAKO202109651163015.pdf)
+
+Research Under review
+======
+One first authored paper is under review in **AAAI 2023**. It has passed Phase1 review. 
+Second first authored paper is under review in **Pattern Recognition Letters** journal. 
 
 Teaching
 ======
