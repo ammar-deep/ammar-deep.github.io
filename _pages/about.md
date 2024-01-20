@@ -36,7 +36,7 @@ Talks
 
 CV
 ======
-Here's my [CV]({{ site.url }}{{ site.baseurl }}/files/Cv_Ammar_2022.pdf)
+Here's my [CV]({{ site.url }}{{ site.baseurl }}/files/Cv_Ammar_2024.pdf)
 
 Portfolio
 ======
