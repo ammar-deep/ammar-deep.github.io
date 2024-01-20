@@ -8,8 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am an AI Engineer at [DeltaX.AI](http://deltax.ai/), focusing on building Advanced Driver Assistance Systems (ADAS), including Driver Monitoring Systems (DMS), Occupancy Monitoring Systems (OMS) and Exterior Monitoring Systems (EMS) for autonomous driving. I recieved Ph.D. in Computer Science at Soongsil University, Seoul, South Korea, advised by [Prof. Jaeyoung Choi](https://scholar.google.com/citations?user=YJ7fWWgAAAAJ&hl=en). I received B.S. in Software Engineering and M.S. in Computer Science, at International Islamic University and Soongsil University respectively. I was funded by International Graduate Research scholarship by Soongsil University for my M.S. and Ph.D. study.
+I am an AI Engineer at [DeltaX.AI](http://deltax.ai/), focusing on building Advanced Driver Assistance Systems (ADAS), including Driver Monitoring Systems (DMS), Occupancy Monitoring Systems (OMS) and Exterior Monitoring Systems (EMS) for autonomous driving. 
 
+I recieved Ph.D. in Computer Science at Soongsil University, Seoul, South Korea, advised by [Prof. Jaeyoung Choi](https://scholar.google.com/citations?user=YJ7fWWgAAAAJ&hl=en). I received B.S. in Software Engineering and M.S. in Computer Science, at International Islamic University and Soongsil University respectively. I was funded by International Graduate Research scholarship by Soongsil University for my M.S. and Ph.D. studies.
 
 My research interests in computer vision span generative modeling, object detection, semantic segmentation, and depth estimation. As an AI professional, I specialize in crafting lightweight deep neural network architectures for EdgeAI devices. My expertise extends to applications such as Advanced Driver Assistance Systems (ADAS), encompassing Driver Monitoring Systems (DMS), Occupancy Monitoring Systems (OMS), and Exterior Monitoring Systems (EMS) for autonomous driving. 
 
