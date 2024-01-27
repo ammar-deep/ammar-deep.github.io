@@ -12,7 +12,10 @@ I am an AI Engineer at [DeltaX.AI](http://deltax.ai/), focusing on building Adva
 
 I recieved Ph.D. in Computer Science at Soongsil University, Seoul, South Korea, advised by [Prof. Jaeyoung Choi](https://scholar.google.com/citations?user=YJ7fWWgAAAAJ&hl=en). I received B.S. in Software Engineering and M.S. in Computer Science, at International Islamic University and Soongsil University respectively. I was funded by International Graduate Research scholarship by Soongsil University for my M.S. and Ph.D. studies.
 
-My research interests in computer vision span generative modeling, object detection, semantic segmentation, and depth estimation. As an AI professional, I specialize in crafting lightweight deep neural network architectures for EdgeAI devices. My expertise extends to applications such as Advanced Driver Assistance Systems (ADAS), encompassing Driver Monitoring Systems (DMS), Occupancy Monitoring Systems (OMS), and Exterior Monitoring Systems (EMS) for autonomous driving. 
+During my Ph.D. I published in some top tier journals including few in Expert Systems with Applications (ESWA) journal, currently ranked number 1 in the Google Scholar h-index ranking for Artificial Intelligence publications. I also presented one of my research papers at the AI for Content Creation (AI4CC) workshop at CVPR 2022.
+
+My research interests in computer vision span generative modeling, object detection, semantic segmentation, and depth estimation. As an AI professional, I specialize in crafting lightweight deep neural network architectures for EdgeAI devices. My expertise extends to applications such as Advanced Driver Assistance Systems (ADAS), encompassing Driver Monitoring Systems (DMS), Occupancy Monitoring Systems (OMS), and Exterior Monitoring Systems (EMS) for autonomous driving.
+
 
 Published Research
 ======
