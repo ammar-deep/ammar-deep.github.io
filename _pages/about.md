@@ -44,17 +44,12 @@ I am an AI Engineer at [DeltaX.AI](http://deltax.ai/), focusing on building Adva
 
 <a name="publications"></a>
 ## 📚 Published Research
-
-<img align="left" width="120" height="90" src="" alt=""/>
-
 **Learning font-style space using style-guided discriminator for few-shot font generation**  
 **Ammar Ul Hassan**, Irfanullah Memon, and Jaeyoung Choi  
 Expert Systems With Applications **(ESWA 2023)**  
 [[paper](https://www.sciencedirect.com/science/article/abs/pii/S0957417423033195)]
 
 <br clear="left"/>
-
-<img align="left" width="120" height="90" src="" alt=""/>
 
 **Exploiting mixing regularization for truly unsupervised font synthesis**  
 **Ammar Ul Hassan**, Hyunsoo Lee, and Jaeyoung Choi  
@@ -63,16 +58,12 @@ Pattern Recognition and Letters **(PR-Letters 2023)**
 
 <br clear="left"/>
 
-<img align="left" width="120" height="90" src="https://ars.els-cdn.com/content/image/1-s2.0-S095741742201925X-gr3.jpg" alt=""/>
-
 **Real-time high quality font generation with Conditional Font GAN**  
 **Ammar Ul Hassan**, Irfanullah Memon, and Jaeyoung Choi  
 Expert Systems With Applications **(ESWA 2022)**  
 [[paper](https://www.sciencedirect.com/science/article/pii/S095741742201925X)]
 
 <br clear="left"/>
-
-<img align="left" width="120" height="90" src="https://raw.githubusercontent.com/ammar-deep/ammar-deep.github.io/master/images/Fontnet.png" alt=""/>
 
 **FontNet: Closing the gap to font designer performance in font synthesis**  
 **Ammar Ul Hassan**, Jaeyoung Choi  
@@ -81,8 +72,6 @@ AI for Content Creation Workshop **(CVPR 2022)**
 
 <br clear="left"/>
 
-<img align="left" width="120" height="90" src="https://raw.githubusercontent.com/ammar-deep/ammar-deep.github.io/master/images/UFFG.png" alt=""/>
-
 **Unpaired font family synthesis using conditional generative adversarial networks**  
 **Ammar Ul Hassan**, Hammad Ahmed, and Jaeyoung Choi  
 Knowledge-Based Systems **(KBS 2021)**  
@@ -90,16 +79,12 @@ Knowledge-Based Systems **(KBS 2021)**
 
 <br clear="left"/>
 
-<img align="left" width="120" height="90" src="https://raw.githubusercontent.com/ammar-deep/ammar-deep.github.io/master/images/SKFont.png" alt=""/>
-
 **SKFont: skeleton-driven Korean font generator with conditional deep adversarial networks**  
 Debbie Honghee Ko, **Ammar Ul Hassan**, Jungjae Suk, and Jaeyoung Choi  
 International Journal on Document Analysis and Recognition **(IJDAR 2021)**  
 [[Code](https://github.com/ammar-deep/SKFont)] | [[paper](https://link.springer.com/article/10.1007/s10032-021-00374-4)]
 
 <br clear="left"/>
-
-<img align="left" width="120" height="90" src="https://raw.githubusercontent.com/ammar-deep/ammar-deep.github.io/master/images/SkleGAN.png" alt=""/>
 
 **SkelGAN: A Font Image Skeletonization Method**  
 Debbie Honghee Ko, **Ammar Ul Hassan**, Saima Majeed, and Jaeyoung Choi  
