@@ -8,40 +8,74 @@ redirect_from:
   - /about.html
 ---
 
-I am an AI Engineer at [DeltaX.AI](http://deltax.ai/), focusing on building Advanced Driver Assistance Systems (ADAS), including Driver Monitoring Systems (DMS), Occupancy Monitoring Systems (OMS) and Exterior Monitoring Systems (EMS) for autonomous driving. 
+# 👋 Hi, I'm Muhammad Ammar ul Hassan
 
-I recieved Ph.D. in Computer Science at Soongsil University, Seoul, South Korea, advised by [Prof. Jaeyoung Choi](https://scholar.google.com/citations?user=YJ7fWWgAAAAJ&hl=en). I received B.S. in Software Engineering and M.S. in Computer Science, at International Islamic University and Soongsil University respectively. I was funded by International Graduate Research scholarship by Soongsil University for my M.S. and Ph.D. studies.
+I am an AI Engineer at [DeltaX.AI](http://deltax.ai/), focusing on building Advanced Driver Assistance Systems (ADAS), including Driver Monitoring Systems (DMS), Occupancy Monitoring Systems (OMS) and Exterior Monitoring Systems (EMS) for autonomous driving.
 
-During my Ph.D. I published in some top tier journals including few in Expert Systems with Applications (ESWA) journal, currently ranked number 1 in the Google Scholar h-index ranking for Artificial Intelligence publications. I also presented one of my research papers at the AI for Content Creation (AI4CC) workshop at CVPR 2022.
+## 🎓 Education & Background
 
-My research interests in computer vision span generative modeling, object detection, semantic segmentation, and depth estimation. As an AI professional, I specialize in crafting lightweight deep neural network architectures for EdgeAI devices. My expertise extends to applications such as Advanced Driver Assistance Systems (ADAS), encompassing Driver Monitoring Systems (DMS), Occupancy Monitoring Systems (OMS), and Exterior Monitoring Systems (EMS) for autonomous driving.
+- Ph.D. in Computer Science at Soongsil University, Seoul, South Korea, advised by [Prof. Jaeyoung Choi](https://scholar.google.com/citations?user=YJ7fWWgAAAAJ&hl=en)
+- M.S. in Computer Science from Soongsil University
+- B.S. in Software Engineering from International Islamic University
+- Recipient of International Graduate Research scholarship by Soongsil University for M.S. and Ph.D. studies
 
+## 🔬 Research Interests & Expertise
 
-Published Research
-======
-<figure style="width: 120px"> <img src="" alt=""> </figure> **Learning font-style space using style-guided discriminator for few-shot font generation**<br/>**Ammar Ul Hassan**, Irfanullah Memon, and Jaeyoung Choi<br/>Expert Systems With Applications **(ESWA 2023)** <br/> [paper](https://www.sciencedirect.com/science/article/abs/pii/S0957417423033195)
-<figure style="width: 120px"> <img src="" alt=""> </figure> **Exploiting mixing regularization for truly unsupervised font synthesis**<br/>**Ammar Ul Hassan**, Hyunsoo Lee, and Jaeyoung Choi<br/>Pattern Recognition and Letters **(PR-Letters 2023)** <br/> [paper](https://www.sciencedirect.com/science/article/abs/pii/S0167865523000843)
-<figure style="width: 120px"> <img src="https://ars.els-cdn.com/content/image/1-s2.0-S095741742201925X-gr3.jpg" alt=""> </figure> **Real-time high quality font generation with Conditional Font GAN**<br/>**Ammar Ul Hassan**, Irfanullah Memon, and Jaeyoung Choi<br/>Expert Systems With Applications **(ESWA 2022)** <br/> [paper](https://www.sciencedirect.com/science/article/pii/S095741742201925X)
-<figure style="width: 120px"> <img src="https://raw.githubusercontent.com/ammar-deep/ammar-deep.github.io/master/images/Fontnet.png" alt=""> </figure>**FontNet: Closing the gap to font designer performance in font synthesis**<br/>**Ammar Ul Hassan**, Jaeyoung Choi<br/>AI for Content Creation Workshop **(CVPR 2022)** <br/>[paper](https://ai4cc.net/#:~:text=with%20Warping%20NODEs-,08,FontNet%3A%20Closing%20the%20gap%20to%20font%20designer%20performance%20in%20font%20synthesis,-09)
-<figure style="width: 120px"> <img src="https://raw.githubusercontent.com/ammar-deep/ammar-deep.github.io/master/images/UFFG.png" alt=""> </figure> **Unpaired font family synthesis using conditional generative adversarial networks**<br/>**Ammar Ul Hassan**, Hammad Ahmed, and Jaeyoung Choi<br/>Knowledge-Based Systems **(KBS 2021)** <br/> [paper](https://www.sciencedirect.com/science/article/pii/S0950705121005669)
-<figure style="width: 120px"> <img src="https://raw.githubusercontent.com/ammar-deep/ammar-deep.github.io/master/images/SKFont.png" alt=""> </figure>**SKFont: skeleton-driven Korean font generator with conditional deep adversarial networks**<br/>Debbie Honghee Ko, **Ammar Ul Hassan**, Jungjae Suk, and Jaeyoung Choi<br/>International Journal on Document Analysis and Recognition **(IJDAR 2021)** <br/>[Code](https://github.com/ammar-deep/SKFont) | [paper](https://link.springer.com/article/10.1007/s10032-021-00374-4)
-<figure style="width: 120px"> <img src="https://raw.githubusercontent.com/ammar-deep/ammar-deep.github.io/master/images/SkleGAN.png" alt=""> </figure>**SkelGAN: A Font Image Skeletonization Method**<br/>Debbie Honghee Ko, **Ammar Ul Hassan**, Saima Majeed, and Jaeyoung Choi<br/>Journal of Information Processing Systems **(JIPS 2021)** <br/>[Code](https://github.com/ammar-deep/SkelGAN) | [paper](https://www.koreascience.or.kr/article/JAKO202109651163015.pdf)
+- Computer Vision & Deep Learning
+- Generative Modeling & GANs
+- Object Detection & Semantic Segmentation
+- Depth Estimation
+- EdgeAI & Model Optimization
+- Advanced Driver Assistance Systems (ADAS)
+- Multi-Camera Systems
 
-Teaching
-======
-5041345801 at Soongsil University Seoul, South Korea.
-Deep learning programming.
-Fall 2021. Head TA. 
+## 📚 Selected Publications
 
-Talks
-======
--  [GANs-Tutorial](https://github.com/ammar-deep/GANs-Tutorial) at Korean Society Of Computational Science And Engineering 2020 [(KSCSE)](http://www.cse.or.kr/board/conference/62)
--  Talk on Font Generation trends using Machine Learning at AMGCC 2020 . [link](https://www.cseric.or.kr/conference/conference.php?&m=view&SnxNum=23766)
+- **Learning font-style space using style-guided discriminator for few-shot font generation**  
+  Expert Systems With Applications (ESWA 2024)
+  [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0957417423033195)
 
-CV
-======
-Here's my [CV]({{ site.url }}{{ site.baseurl }}/files/Cv_Ammar_2024.pdf)
+- **Exploiting mixing regularization for truly unsupervised font synthesis**  
+  Pattern Recognition Letters (PR-Letters 2023)
+  [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0167865523000843)
 
-Portfolio
-======
-Here's my [Portfolio]({{ site.url }}{{ site.baseurl }}/files/Portfolio_Ammar_2025.pdf)
+- **Real-time high quality font generation with Conditional Font GAN**  
+  Expert Systems With Applications (ESWA 2022)
+  [Paper](https://www.sciencedirect.com/science/article/pii/S095741742201925X)
+
+- **FontNet: Closing the gap to font designer performance in font synthesis**  
+  AI for Content Creation Workshop (CVPR 2022)
+  [Paper](https://ai4cc.net/)
+
+## 💻 Technical Skills
+
+- **Frameworks:** PyTorch, TensorFlow, ONNX, TensorRT
+- **Languages:** Python (proficient), C/C++ (knowledgeable)
+- **Edge Devices:** NVIDIA Jetson, TI Board, Multi-Camera Systems
+- **Tools:** Docker, MLOps, Git/GitHub
+- **Areas:** Computer Vision, Deep Learning, Model Optimization
+
+## 🎯 Current Work at DeltaX.AI
+
+- Developing In-Cabin & Exterior Monitoring Systems
+- Implementing Multi-Camera-Multi-Object Tracking
+- Creating Depth Estimation & Pseudo-LiDAR solutions
+- Building Smart Factory vision systems
+- Optimizing models for edge devices
+
+## 🎓 Teaching & Talks
+
+- Head TA for Deep Learning Programming at Soongsil University (Fall 2021)
+- [GANs Tutorial](https://github.com/ammar-deep/GANs-Tutorial) at Korean Society Of Computational Science And Engineering [(KSCSE)](http://www.cse.or.kr/board/conference/62)
+- Font Generation trends using Machine Learning at AMGCC 2020 [Link](https://www.cseric.or.kr/conference/conference.php?&m=view&SnxNum=23766)
+
+## 🔗 Let's Connect
+
+- 📧 Email: ammar.instantsoft@gmail.com
+- 🌐 Website: [Personal Portfolio](https://ammar-deep.github.io)
+- 📱 Phone: (+82) 10-2637-3994
+- 📍 Location: Seoul, South Korea
+
+---
+
+💡 I'm always interested in collaborating on innovative AI projects and research. Feel free to reach out if you'd like to discuss potential collaborations or have any questions about my work!
