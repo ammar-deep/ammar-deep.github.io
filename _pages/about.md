@@ -128,5 +128,3 @@ Journal of Information Processing Systems **(JIPS 2021)**
 ---
 
 💡 I'm always interested in collaborating on innovative AI projects and research. Feel free to reach out if you'd like to discuss potential collaborations or have any questions about my work!
-
-Version 3 of 3
