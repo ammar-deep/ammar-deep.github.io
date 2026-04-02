@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Ammar Ul Hassan"
 title_separator          : "-"
 name                     : &name "Ammar Ul Hassan"
-description              : &description "AI Engineer at DeltaX"
+description              : &description "Postdoctoral Researcher in Computer Vision and AI Systems"
 url                      : https://ammar-deep.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ammar-deep/ammar-deep.github.io"
@@ -80,9 +80,9 @@ analytics:
 author:
   name             : "Ammar Ul Hassan"
   avatar           : "ammar_profile.jpg"
-  bio              : "AI Engineer at DeltaX"
-  location         : "Seoul, South Korea"
-  employer         :
+  bio              : "Postdoctoral Researcher in Computer Vision and AI Systems"
+  location         : "Galway, Ireland"
+  employer         : "University of Galway"
   googlescholar    : "https://scholar.google.com/citations?user=OGq4xDYAAAAJ&hl=en"
   email            :  ammar.instantsoft@gmail.com
   uri              :

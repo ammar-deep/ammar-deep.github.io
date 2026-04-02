@@ -50,6 +50,21 @@
 
 .page__content {
 
+  .news-feed {
+    margin: 0.75rem 0 0;
+    padding-left: 1.25rem;
+  }
+
+  .news-feed li {
+    margin-bottom: 0.55rem;
+  }
+
+  .news-feed__date {
+    display: inline-block;
+    min-width: 5.5rem;
+    font-weight: bold;
+  }
+
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;

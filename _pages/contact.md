@@ -3,6 +3,7 @@ layout: single
 title: "Contact"
 permalink: /contact/
 author_profile: true
+show_title: false
 ---
 
 I am open to collaboration in applied computer vision, driver monitoring, image generative models (GANs, diffusion models), Vision-Language Models (VLMs), and edge AI deployment.
