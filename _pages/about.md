@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: ""
-excerpt: "Postdoctoral researcher in computer vision, generative models, and edge AI deployment."
+excerpt: "Postdoctoral Researcher in Computer Vision and Edge AI"
 author_profile: true
 show_title: false
 redirect_from: 
@@ -9,85 +9,60 @@ redirect_from:
   - /about.html
 ---
 
-# Hi, I'm Muhammad Ammar ul Hassan
+#### Hi there
 
-[News](#news) |
-[About](#about) |
-[Research Interests](#research) | 
-[Experience](#experience) | 
-[Education](#education)
+I'm Muhammad Ammar ul Hassan, a Postdoctoral Researcher at the [University of Galway](https://www.universityofgalway.ie/), Ireland. I received my Ph.D. from Soongsil University, Seoul, South Korea. Feel free to reach out if you want to collaborate or just have a chat.
 
-I am a Postdoctoral Researcher at the University of Galway, contributing to the ATHENA project. My work focuses on computer vision, driver monitoring, image generative models, multimodal perception, and edge AI deployment.
+#### What I Do
 
-Previously, I worked as an AI Engineer at DeltaX.ai, where I built and deployed real-world vision systems for in-cabin monitoring, ADAS, smart factory applications, and embedded AI platforms.
+I am a computer vision researcher and engineer with experience across academic research and industry.
 
-<a name="news"></a>
-## 📰 News
+- **Current (2025–):** Postdoctoral researcher on the ATHENA Project — drunk/impaired driver detection using thermal cameras, VLM evaluation for driver monitoring systems, and open-vocabulary object detection for in-cabin understanding.
+- **Industry (2023–2025):** AI Engineer at DeltaX.ai — built and deployed real-world systems for in-cabin monitoring (ICMS), ADAS pipelines, and smart factory vision applications.
+- **PhD Research (2018–2023):** Deep generative models — domain translation, style transfer, and skeletonization, applied to font synthesis and facial attribute editing.
 
-{% assign news_items = site.data.news | sort: "date" | reverse %}
-<div class="notice--info">
-  <strong>Latest Updates</strong>
-  <ul class="news-feed">
-  {% for item in news_items %}
-    <li><span class="news-feed__date">{{ item.date }}</span> {{ item.text }}</li>
-  {% endfor %}
-  </ul>
-</div>
+#### What I'm Working On
 
-[Back to Top](#-hi-im-muhammad-ammar-ul-hassan)
+- Drunk/impaired driver detection using thermal (LWIR) camera systems.
+- Evaluating Vision-Language Models (VLMs) for automated driver monitoring assessment.
+- Open-vocabulary object detection for unconstrained automotive scenes.
+- Multimodal perception and efficient model deployment on resource-constrained edge devices.
 
-<a name="about"></a>
-## About
+#### Sensors & Tools I Work With
 
-- Postdoctoral Researcher, University of Galway, Ireland
-- Former AI Engineer, DeltaX.ai, Seoul
-- Ph.D. and M.S. in Computer Science & Engineering, Soongsil University
-- B.S. in Software Engineering, International Islamic University
+- **Sensors:** RGB, Fisheye, Depth, IR/Thermal cameras · LiDAR · IMU · CAN bus
+- **Frameworks:** PyTorch (primary), TensorFlow; deployment experience with embedded vision hardware
 
-[Back to Top](#-hi-im-muhammad-ammar-ul-hassan)
+#### Looking to Collaborate On
 
-<a name="education"></a>
-## 🎓 Education & Background
+- Automotive safety, driver monitoring, and in-cabin perception.
+- VLM/LLM evaluation and adaptation for real-world vision tasks.
+- Generative models, domain adaptation, and open-vocabulary recognition.
+- Edge AI and efficient deployment for embedded vision systems.
 
-- Ph.D. in Computer Science at Soongsil University, Seoul, South Korea, advised by [Prof. Jaeyoung Choi](https://scholar.google.com/citations?user=YJ7fWWgAAAAJ&hl=en)
-- M.S. in Computer Science from Soongsil University
-- B.S. in Software Engineering from International Islamic University
-- Recipient of International Graduate Research scholarship by Soongsil University for M.S. and Ph.D. studies
+#### Education
 
-[Back to Top](#-hi-im-muhammad-ammar-ul-hassan)
+- **Ph.D.** in Computer Science & Engineering — Soongsil University, Seoul (2018–2023), supervised by [Prof. Jaeyoung Choi](https://scholar.google.com/citations?user=YJ7fWWgAAAAJ&hl=en)
+- **M.S.** in Computer Science & Engineering — Soongsil University (2016–2018) · International Graduate Research Scholar
+- **B.S.** in Software Engineering — International Islamic University, Pakistan (2009–2013)
 
-<a name="research"></a>
-## 🔬 Research Interests & Expertise
+#### How to Reach Me
 
-- Computer Vision & Deep Learning
-- Vision-Language Models (VLMs) and Large Language Models (LLMs) for perception evaluation
-- Open-Vocabulary Object Detection for unconstrained in-cabin understanding
-- Driver Monitoring Systems (DMS), Occupancy Monitoring, and ADAS pipelines
-- Edge AI, model optimization, and deployment on resource-constrained hardware
-- Generative models including GANs and diffusion models
-
-[Back to Top](#-hi-im-muhammad-ammar-ul-hassan)
-
-<a name="experience"></a>
-## Experience Snapshot
-
-- **2025-Present:** Postdoctoral Researcher, University of Galway, working on the ATHENA project with focus on VLM evaluation and open-vocabulary driver monitoring.
-- **2023-2025:** AI Engineer, DeltaX.ai, delivering in-cabin monitoring, ADAS, smart factory, and edge deployment systems.
-- **2018-2023:** Graduate Research Associate, Soongsil University, conducting research in font generation, GANs, and representation learning.
-- **2016-2018:** Graduate Research Assistant, Soongsil University, working on system software and font rendering research.
-
-[Back to Top](#-hi-im-muhammad-ammar-ul-hassan)
-
-<a name="education"></a>
-## Education
-
-- **Ph.D. in Computer Science & Engineering**, Soongsil University, Seoul, South Korea
-- **M.S. in Computer Science & Engineering**, Soongsil University, Seoul, South Korea
-- **B.S. in Software Engineering**, International Islamic University, Pakistan
-- Recipient of International Graduate Research Scholarship during M.S. and Ph.D. studies
-
-[Back to Top](#-hi-im-muhammad-ammar-ul-hassan)
+- Email: [ammar.instantsoft@gmail.com](mailto:ammar.instantsoft@gmail.com)
+- [GitHub](https://github.com/ammar-deep) · [LinkedIn](https://www.linkedin.com/in/ammar-ul-hassan-muhammad-131130171) · [Google Scholar](https://scholar.google.com/citations?user=OGq4xDYAAAAJ&hl=en)
 
 ---
 
-I am always interested in research collaboration and applied AI projects across computer vision, driver monitoring, multimodal evaluation, and generative modeling.
+## News
+
+{% assign news_items = site.data.news | sort: "date" | reverse %}
+<table>
+  <tbody>
+  {% for item in news_items %}
+    <tr>
+      <td style="white-space:nowrap; padding-right:1.5em;"><strong>{{ item.date }}</strong></td>
+      <td>{{ item.text }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
