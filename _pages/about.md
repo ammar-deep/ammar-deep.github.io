@@ -1,23 +1,34 @@
 ---
 permalink: /
-title: ""
-excerpt: ""
+title: "Home"
+excerpt: "AI researcher and engineer working on practical, human-centered vision systems."
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-# 👋 Hi, I'm Muhammad Ammar ul Hassan
+# Hi, I'm Muhammad Ammar ul Hassan
 
+[News](#news) |
 [Education & Background](#education) | 
 [Research Interests](#research) | 
-[Publications](#publications) | 
+[Selected Publications](#publications) | 
 [Technical Skills](#skills) | 
 [Teaching & Talks](#teaching) | 
 [Contact](#contact)
 
-I am an AI Engineer at [DeltaX.AI](http://deltax.ai/), focusing on building Advanced Driver Assistance Systems (ADAS), including Driver Monitoring Systems (DMS), Occupancy Monitoring Systems (OMS) and Exterior Monitoring Systems (EMS) for autonomous driving.
+I am a Postdoctoral Researcher at the University of Galway, contributing to the ATHENA project. My work focuses on practical computer vision systems for driver monitoring, Smart Factories, GenAI, assistive technologies, and edge AI deployment.
+
+<a name="news"></a>
+## 📰 News
+
+{% assign news_items = site.data.news | sort: "date" | reverse %}
+{% for item in news_items %}
+- **{{ item.date }}:** {{ item.text }}
+{% endfor %}
+
+[Back to Top](#-hi-im-muhammad-ammar-ul-hassan)
 
 <a name="education"></a>
 ## 🎓 Education & Background
@@ -33,20 +44,19 @@ I am an AI Engineer at [DeltaX.AI](http://deltax.ai/), focusing on building Adva
 ## 🔬 Research Interests & Expertise
 
 - Computer Vision & Deep Learning
-- Generative Modeling & GANs
-- Object Detection & Semantic Segmentation
-- Depth Estimation
-- EdgeAI & Model Optimization
-- Advanced Driver Assistance Systems (ADAS)
-- Multi-Camera Systems
+- Vision-Language Models (VLMs) and Large Language Models (LLMs) for perception evaluation
+- Open-Vocabulary Object Detection for unconstrained in-cabin understanding
+- Driver Monitoring Systems (DMS), Occupancy Monitoring, and ADAS pipelines
+- Edge AI, model optimization, and deployment on resource-constrained hardware
+- Generative models including GANs and diffusion models
 
 [Back to Top](#-hi-im-muhammad-ammar-ul-hassan)
 
 <a name="publications"></a>
-## 📚 Published Research
+## 📚 Selected Publications
 **Learning font-style space using style-guided discriminator for few-shot font generation**  
 **Ammar Ul Hassan**, Irfanullah Memon, and Jaeyoung Choi  
-Expert Systems With Applications **(ESWA 2023)**  
+Expert Systems With Applications **(ESWA 2024)**  
 [[paper](https://www.sciencedirect.com/science/article/abs/pii/S0957417423033195)]
 
 <br clear="left"/>
@@ -100,9 +110,9 @@ Journal of Information Processing Systems **(JIPS 2021)**
 
 - **Frameworks:** PyTorch, TensorFlow, ONNX, TensorRT
 - **Languages:** Python (proficient), C/C++ (knowledgeable)
-- **Edge Devices:** NVIDIA Jetson, TI Board, Multi-Camera Systems
-- **Tools:** Docker, MLOps, Git/GitHub
-- **Areas:** Computer Vision, Deep Learning, Model Optimization
+- **Edge Devices:** NVIDIA Jetson, TI Board, Hailo
+- **Tools:** Docker, MLOps, Git/GitHub, DeepStream
+- **Areas:** Computer Vision, VLM evaluation, model optimization, deployment
 
 [Back to Top](#-hi-im-muhammad-ammar-ul-hassan)
 
@@ -110,6 +120,7 @@ Journal of Information Processing Systems **(JIPS 2021)**
 ## 🎓 Teaching & Talks
 
 - Head TA for Deep Learning Programming at Soongsil University (Fall 2021)
+- Co-Course Instructor for AI Model Deployment (CT5227), University of Galway (2026-present)
 - [GANs Tutorial](https://github.com/ammar-deep/GANs-Tutorial) at Korean Society Of Computational Science And Engineering [(KSCSE)](http://www.cse.or.kr/board/conference/62)
 - Font Generation trends using Machine Learning at AMGCC 2020 [Link](https://www.cseric.or.kr/conference/conference.php?&m=view&SnxNum=23766)
 
@@ -120,8 +131,8 @@ Journal of Information Processing Systems **(JIPS 2021)**
 
 - 📧 Email: ammar.instantsoft@gmail.com
 - 🌐 Website: [Personal Website](https://ammar-deep.github.io)
-- 📱 Phone: (+82) 10-2637-3994
-- 📍 Location: Seoul, South Korea
+- 🔗 LinkedIn: [ammar-ul-hassan-muhammad-131130171](https://www.linkedin.com/in/ammar-ul-hassan-muhammad-131130171)
+- 📍 Location: Galway, Ireland
 
 [Back to Top](#-hi-im-muhammad-ammar-ul-hassan)
 
