@@ -8,14 +8,11 @@ date: 2025-11-01
 
 **University of Galway — 2025–Present**
 
-The ATHENA project focuses on building robust driver monitoring systems using thermal infrared cameras, targeting impaired (drunk/drowsy) driver detection under challenging real-world conditions.
+Detecting an impaired driver is a harder problem than it looks. You're not just watching for closed eyes — you want to catch subtler, earlier signs, and you need a system that works regardless of lighting, time of day, or whether the driver is wearing sunglasses. Thermal cameras help a lot with this, which is the core premise of ATHENA.
 
-**Key contributions:**
+My work on the project is split between two threads. The first is benchmarking Vision-Language Models — LLaVA, Qwen-VL, Mistral, SmolVLM, InstructBLIP — on driver monitoring datasets. The question I'm trying to answer is how well these models actually understand in-cabin scenes, and whether our current evaluation methods are telling us anything meaningful. The gap between what these models claim and what they do in a structured benchmark is genuinely interesting, and it's still early days for this kind of work.
 
-- Benchmarking Vision-Language Models (LLaVA, Qwen-VL, Mistral, SmolVLM, InstructBLIP) on Driver Monitoring System (DMS) datasets for automated scene understanding evaluation
-- Investigating open-vocabulary object detection frameworks (YOLO-World, YOLO-E) for unconstrained in-cabin scene understanding using thermal imagery
-- Building multi-model evaluation pipelines to quantitatively compare VLM baselines across DMS tasks
-- Contributing to experimental design and paper writing within the ATHENA thermal IR imaging project
+The second thread is open-vocabulary detection using YOLO-World and YOLO-E on thermal imagery. The appeal of open-vocabulary detection here is that you're not locked into a fixed class list — useful when you're deploying in the real world and can't anticipate every object or situation in advance.
 
-**Tools & Sensors:** PyTorch · Thermal / LWIR cameras · YOLO-World · YOLO-E · LLaVA · Qwen-VL · Python
+**Stack:** PyTorch · Thermal / LWIR cameras · YOLO-World · YOLO-E · LLaVA · Qwen-VL · Python
 

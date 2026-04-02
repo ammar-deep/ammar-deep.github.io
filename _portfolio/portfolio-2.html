@@ -8,19 +8,11 @@ date: 2023-03-01
 
 <p><strong>DeltaX.ai, Seoul — 2023–2025</strong></p>
 
-<p>Led development and deployment of production-grade in-cabin perception systems using IR cameras and embedded AI hardware.</p>
+<p>When a system has to make safety decisions inside a moving vehicle in real time, there's not much room for error — and even less room for a model that needs a proper GPU to run. Most of my work here was about closing that gap.</p>
 
-<p><strong>In-Cabin Monitoring (ICMS):</strong></p>
-<ul>
-  <li>Seatbelt detection, driver hands-on/off detection, drowsiness detection, child presence detection, occupancy monitoring, and driver behaviour analysis using IR camera data</li>
-  <li>Deployed models on NVIDIA Jetson, TI boards, and Hailo platforms using quantization and knowledge distillation</li>
-</ul>
+<p>On the monitoring side, I built and deployed models for seatbelt detection, hands-on/off-wheel, drowsiness detection, child presence, and occupancy — all from IR cameras, because IR works in the dark and sidesteps a lot of privacy concerns you'd face with RGB. Getting these to run reliably on Jetson and TI boards required thinking carefully about model architecture from the start, not just quantizing something at the end and hoping for the best.</p>
 
-<p><strong>ADAS:</strong></p>
-<ul>
-  <li>Real-time multi-class semantic segmentation for road scene understanding (pothole, curb, parking, speed bump, crack) optimized for TI edge boards</li>
-  <li>Lane Departure Warning (LDW) and Forward Collision Warning (FCW) via monocular depth estimation</li>
-</ul>
+<p>The ADAS work was a different flavor of constraint. I built a semantic segmentation model for road scenes — potholes, curbs, speed bumps, cracks — that had to be light enough for a TI embedded board while staying accurate enough to actually be useful. Lane departure and forward collision warnings ran through a monocular depth pipeline, which meant tuning something fast enough for real-time inference and stable enough that safety-relevant triggers didn't fire on noise.</p>
 
-<p><strong>Tools &amp; Sensors:</strong> PyTorch · IR/Thermal cameras · ONNX · TensorRT · TI board · NVIDIA Jetson · Hailo</p>
+<p><strong>Stack:</strong> PyTorch · IR/Thermal cameras · ONNX · TensorRT · TI board · NVIDIA Jetson · Hailo</p>
 

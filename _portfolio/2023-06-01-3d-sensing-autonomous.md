@@ -8,24 +8,14 @@ date: 2023-06-01
 
 **DeltaX.ai, Seoul — 2023–2025**
 
-A collection of projects spanning multi-modal 3D scene understanding and autonomous system prototypes.
+Some of the most interesting work I did at DeltaX didn't have a clean product brief — it was more "can we actually do this, and is it good enough to be useful?" A lot of the 3D sensing work started there.
 
-**3D Sensing & Pseudo-LiDAR:**
+The pseudo-LiDAR project came from a practical question: real LiDAR is expensive, so what do you actually lose by using monocular depth to generate a point cloud instead? I built a pipeline to compare the two side by side — dense vs sparse, structured vs noisy — running in real time with a PyQt interface so you could watch the difference directly. The honest answer is "it depends on your application," but working through why taught me a lot about where depth estimation actually breaks down.
 
-- Monocular depth estimation → 3D point cloud (pseudo-LiDAR) with dense vs sparse comparison against real LiDAR
-- Multi-camera 3D object detection, tracking, static/dynamic segmentation, speed and direction estimation
-- LiDAR–camera extrinsic calibration, synchronization, and multi-camera 3D reconstruction
-- Real-time BEV (Bird's Eye View) and Jelly-View visualization using PyQt
+The multi-camera perception work was more involved: extrinsic calibration and time synchronization across cameras, 3D object detection and tracking, static/dynamic segmentation, speed and direction estimation. BEV and Jelly-View visualization on top of everything, which sounds optional until you've tried to debug a 3D tracker without it.
 
-**Autonomous Wheelchair POC:**
+The autonomous wheelchair was a POC but a genuinely challenging one. Dual cameras (RGB + depth), SLAM-based path planning, and a custom panoptic segmentation model we trained on data collected in Seoul — outdoors, in environments that hadn't been mapped in advance. That last part was the hard bit.
 
-- Dual-camera (RGB + Depth) system with monocular depth for real-time obstacle distance measurement
-- SLAM-based path planning with a custom panoptic segmentation model trained on Seoul urban environment data
-- Enabled robust outdoor and indoor navigation for assistive mobility
+The gesture control project was simpler but fun. Detect body keypoints, define a gesture vocabulary, map joint movements to robot commands. The interesting engineering problem was making the recognition robust enough that the robot didn't start moving every time the driver adjusted their grip.
 
-**Gesture-Based Vehicle Control (HRI POC):**
-
-- Body keypoint detection to recognize a defined gesture vocabulary
-- Mapped skeletal joint inputs to mobile robot movement commands for gesture-controlled autonomous driving
-
-**Tools & Sensors:** PyTorch · LiDAR · RGB cameras · Depth cameras · Open3D · OpenGL · PyQt · SLAM
+**Stack:** PyTorch · LiDAR · RGB cameras · Depth cameras · Open3D · OpenGL · PyQt · SLAM

@@ -11,45 +11,29 @@ redirect_from:
 
 #### Hi there
 
-I'm Muhammad Ammar ul Hassan, a Postdoctoral Researcher at the [University of Galway](https://www.universityofgalway.ie/), Ireland. I received my Ph.D. from Soongsil University, Seoul, South Korea. Feel free to reach out if you want to collaborate or just have a chat.
+I'm Ammar — a computer vision researcher and engineer based in Galway, Ireland. I did my PhD at Soongsil University in Seoul, spent a couple of years building real-world AI systems at a startup, and I'm now a postdoc at the University of Galway. Feel free to look around, and reach out if anything here overlaps with what you're working on.
 
-#### What I Do
+#### What I do
 
-I am a computer vision researcher and engineer with experience across academic research and industry.
+Most of my work sits at the intersection of "making models that actually work" and "making them work on hardware that wasn't designed to run them." I've moved across generative models, driver monitoring, 3D scene understanding, and edge deployment — different problems, but the same underlying interest: vision systems that hold up in the real world.
 
-- **Current (2025–):** Postdoctoral researcher on the ATHENA Project — drunk/impaired driver detection using thermal cameras, VLM evaluation for driver monitoring systems, and open-vocabulary object detection for in-cabin understanding.
-- **Industry (2023–2025):** AI Engineer at DeltaX.ai — built and deployed real-world systems for in-cabin monitoring (ICMS), ADAS pipelines, and smart factory vision applications.
-- **PhD Research (2018–2023):** Deep generative models — domain translation, style transfer, and skeletonization, applied to font synthesis and facial attribute editing.
+Right now I'm part of the [ATHENA project](https://www.universityofgalway.ie/), where the focus is on detecting impaired drivers using thermal cameras. A big chunk of my time is benchmarking VLMs — LLaVA, Qwen, Mistral, SmolVLM — on driver monitoring datasets, trying to understand how much genuine scene understanding these models have versus how much they're pattern-matching. I'm also looking at open-vocabulary detection frameworks for in-cabin scenes, where you can't always predict in advance what you'll need to find.
 
-#### What I'm Working On
+#### Before that
 
-- Drunk/impaired driver detection using thermal (LWIR) camera systems.
-- Evaluating Vision-Language Models (VLMs) for automated driver monitoring assessment.
-- Open-vocabulary object detection for unconstrained automotive scenes.
-- Multimodal perception and efficient model deployment on resource-constrained edge devices.
+At DeltaX.ai in Seoul, I worked on the kind of computer vision that has to run inside a moving car or on a factory floor and can't fail. That meant in-cabin monitoring — seatbelt detection, drowsiness, occupancy, all from IR cameras — road scene segmentation for an ADAS pipeline, and a 27-camera smart factory system written in C++. A lot of my time there was figuring out how to take a model that worked fine on a GPU and make it run on a Jetson or Hailo board without losing what mattered about it.
 
-#### Sensors & Tools I Work With
-
-- **Sensors:** RGB, Fisheye, Depth, IR/Thermal cameras · LiDAR · IMU · CAN bus
-- **Frameworks:** PyTorch (primary), TensorFlow; deployment experience with embedded vision hardware
-
-#### Looking to Collaborate On
-
-- Automotive safety, driver monitoring, and in-cabin perception.
-- VLM/LLM evaluation and adaptation for real-world vision tasks.
-- Generative models, domain adaptation, and open-vocabulary recognition.
-- Edge AI and efficient deployment for embedded vision systems.
+My PhD was about generative models — specifically, teaching GANs to separate content from style without any labels. No paired data, no domain supervision. The main application was font synthesis, where the problem of disentangling *what a character is* from *how it's drawn* turns out to be a surprisingly rich testbed.
 
 #### Education
 
-- **Ph.D.** in Computer Science & Engineering — Soongsil University, Seoul (2018–2023), supervised by [Prof. Jaeyoung Choi](https://scholar.google.com/citations?user=YJ7fWWgAAAAJ&hl=en)
-- **M.S.** in Computer Science & Engineering — Soongsil University (2016–2018) · International Graduate Research Scholar
-- **B.S.** in Software Engineering — International Islamic University, Pakistan (2009–2013)
+- **Ph.D.** Computer Science & Engineering, Soongsil University, Seoul (2018–2023) — advised by [Prof. Jaeyoung Choi](https://scholar.google.com/citations?user=YJ7fWWgAAAAJ&hl=en)
+- **M.S.** Computer Science & Engineering, Soongsil University (2016–2018)
+- **B.S.** Software Engineering, International Islamic University, Pakistan (2009–2013)
 
-#### How to Reach Me
+#### Get in touch
 
-- Email: [ammar.instantsoft@gmail.com](mailto:ammar.instantsoft@gmail.com)
-- [GitHub](https://github.com/ammar-deep) · [LinkedIn](https://www.linkedin.com/in/ammar-ul-hassan-muhammad-131130171) · [Google Scholar](https://scholar.google.com/citations?user=OGq4xDYAAAAJ&hl=en)
+Email is the best way: [ammar.instantsoft@gmail.com](mailto:ammar.instantsoft@gmail.com). You can also find me on [GitHub](https://github.com/ammar-deep), [LinkedIn](https://www.linkedin.com/in/ammar-ul-hassan-muhammad-131130171), and [Google Scholar](https://scholar.google.com/citations?user=OGq4xDYAAAAJ&hl=en).
 
 ---
 
