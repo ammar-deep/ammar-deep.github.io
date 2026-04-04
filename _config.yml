@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ammar Ul Hassan"
+title                    : "Muhammad Ammar Ul Hassan"
 title_separator          : "-"
-name                     : &name "Ammar Ul Hassan"
+name                     : &name "Muhammad Ammar Ul Hassan"
 description              : &description "Postdoctoral Researcher in Computer Vision and AI Systems"
 url                      : https://ammar-deep.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -78,7 +78,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Ammar Ul Hassan"
+  name             : "Muhammad Ammar Ul Hassan"
   avatar           : "ammar_profile.jpg"
   bio              : "Postdoctoral Researcher in Computer Vision and AI Systems"
   location         : "Galway, Ireland"
