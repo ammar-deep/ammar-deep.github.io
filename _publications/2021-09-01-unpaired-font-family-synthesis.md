@@ -8,6 +8,9 @@ venue: "Knowledge-Based Systems"
 paperurl: "https://www.sciencedirect.com/science/article/pii/S0950705121005669"
 citation: "Hassan, A. U., Ahmed, H., & Choi, J. (2021). <i>Unpaired font family synthesis using conditional generative adversarial networks</i>. Knowledge-Based Systems, 229, 107304."
 authors: "<strong>A. U. Hassan</strong>, H. Ahmed, J. Choi"
+gallery_images:
+  - pubs/uffg/fig1.png
+  - pubs/uffg/fig2.png
 header:
   teaser: "UFFG.png"
 ---

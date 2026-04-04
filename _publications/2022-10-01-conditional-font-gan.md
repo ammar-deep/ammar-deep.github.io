@@ -8,6 +8,8 @@ venue: "Expert Systems With Applications"
 paperurl: "https://www.sciencedirect.com/science/article/pii/S095741742201925X"
 citation: "Hassan, A. U., Memon, I., & Choi, J. (2022). <i>Real-time high quality font generation with Conditional Font GAN</i>. Expert Systems With Applications, 213, 118907."
 authors: "<strong>A. U. Hassan</strong>, I. Memon, J. Choi"
+gallery_images:
+  - pubs/cgan/fig1.png
 header:
   teaser: "pub_placeholder.png"
 ---

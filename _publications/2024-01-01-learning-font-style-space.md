@@ -8,6 +8,9 @@ venue: "Expert Systems With Applications"
 paperurl: "https://www.sciencedirect.com/science/article/abs/pii/S0957417423033195"
 citation: "Hassan, A. U., Memon, I., & Choi, J. (2024). <i>Learning font-style space using style-guided discriminator for few-shot font generation</i>. Expert Systems With Applications, 242, 122817."
 authors: "<strong>A. U. Hassan</strong>, I. Memon, J. Choi"
+gallery_images:
+  - pubs/style-guided/fig1.jpg
+  - pubs/style-guided/fig2.png
 header:
   teaser: "pub_placeholder.png"
 ---
