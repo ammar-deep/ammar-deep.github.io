@@ -160,6 +160,70 @@
 }
 
 /* ==========================================================================
+   ACTIVITY CARDS (Academic page — teaching, talks, awards)
+   ========================================================================== */
+
+.activity-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.1em;
+  padding: 1.1em 0;
+  border-bottom: 1px solid $border-color;
+
+  &:last-child { border-bottom: none; }
+
+  &__icon {
+    flex: 0 0 2.4em;
+    width: 2.4em;
+    height: 2.4em;
+    border-radius: 50%;
+    background: mix(#fff, $primary-color, 85%);
+    border: 1px solid mix(#fff, $primary-color, 55%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $primary-color;
+    font-size: 0.95em;
+    margin-top: 0.1em;
+    flex-shrink: 0;
+  }
+
+  &__body { flex: 1; min-width: 0; }
+
+  &__title {
+    font-size: 0.95em;
+    font-weight: 700;
+    color: $text-color;
+    margin: 0 0 0.2em;
+    line-height: 1.35;
+  }
+
+  &__meta {
+    font-size: 0.8em;
+    color: $gray;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4em;
+    align-items: center;
+    margin-bottom: 0.3em;
+  }
+
+  &__type {
+    font-weight: 600;
+    color: $primary-color;
+  }
+
+  &__sep { color: $light-gray; }
+
+  &__desc {
+    font-size: 0.86em;
+    color: $dark-gray;
+    line-height: 1.5;
+    margin: 0;
+  }
+}
+
+/* ==========================================================================
    PROJECT CARDS (Projects page)
    ========================================================================== */
 
