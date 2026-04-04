@@ -8,16 +8,16 @@
   text: 'Paper published: <a href="https://www.sciencedirect.com/science/article/abs/pii/S0957417423033195">Learning font-style space using style-guided discriminator for few-shot font generation</a>. <i>Expert Systems With Applications</i>, 242, 122817.'
 
 - date: "2023-03"
-  text: "Joined DeltaX.ai as an AI Engineer, working on in-cabin monitoring systems (ICMS), ADAS, smart factory vision, and edge AI deployment."
+  text: "Joined [DeltaX.ai](https://deltax.ai/) as an AI Engineer, working on in-cabin monitoring systems (ICMS), ADAS, smart factory vision, and edge AI deployment."
 
 - date: "2023-01"
   text: 'Paper published: <a href="https://doi.org/10.1016/j.patrec.2023.03.010">Exploiting mixing regularization for truly unsupervised font synthesis</a>. <i>Pattern Recognition Letters</i>, 169, 35–42.'
 
 - date: "2023-02"
-  text: "Completed Ph.D. in Computer Science & Engineering at Soongsil University, Seoul, South Korea."
+  text: "Completed Ph.D. in Computer Science & Engineering at [Soongsil University](https://www.ssu.ac.kr/eng/), Seoul, South Korea."
 
 - date: "2022-06"
-  text: 'Presented <a href="https://openaccess.thecvf.com/content/CVPR2022W/CVFAD/html/Hassan_FontNet_Closing_the_Gap_to_Font_Designer_Performance_in_Font_CVPRW_2022_paper.html">FontNet</a> at the AI for Content Creation (AI4CC) Workshop, CVPR 2022.'
+  text: 'Presented <a href="https://openaccess.thecvf.com/content/CVPR2022W/CVFAD/html/Hassan_FontNet_Closing_the_Gap_to_Font_Designer_Performance_in_Font_CVPRW_2022_paper.html">FontNet</a> at the [AI for Content Creation (AI4CC) Workshop, CVPR 2022](https://ai-for-content-creation.github.io/2022/).'
 
 - date: "2022-01"
   text: 'Paper published: <a href="https://doi.org/10.1016/j.eswa.2022.118907">Real-time high quality font generation with conditional GAN</a>. <i>Expert Systems with Applications</i>, 213, 118907.'
