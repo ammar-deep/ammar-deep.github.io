@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Muhammad Ammar Ul Hassan"
+title                    : "Muhammad Ammar"
 title_separator          : "-"
 name                     : &name "Muhammad Ammar Ul Hassan"
 description              : &description "Postdoctoral Researcher in Computer Vision and AI Systems"
