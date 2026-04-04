@@ -2,9 +2,21 @@
 {% assign base = base_path %}
 
 <div class="pub-card">
-  {% if post.header.teaser %}
+  {% if post.gallery_images %}
+    {% if post.gallery_images.size > 1 %}
+    <div class="pub-card__thumb pub-card__thumb--gallery" style="--img-count: {{ post.gallery_images.size }};">
+      {% for img in post.gallery_images %}
+      <img class="pub-card__gallery-img" src="{{ img | prepend: '/images/' | prepend: base }}" alt="{{ post.title }}" style="--i: {{ forloop.index0 }};" loading="lazy">
+      {% endfor %}
+    </div>
+    {% else %}
+    <div class="pub-card__thumb">
+      <img src="{{ post.gallery_images[0] | prepend: '/images/' | prepend: base }}" alt="{{ post.title }}" loading="lazy">
+    </div>
+    {% endif %}
+  {% elsif post.header.teaser %}
   <div class="pub-card__thumb">
-    <img src="{{ post.header.teaser | prepend: '/images/' | prepend: base }}" alt="{{ post.title }}">
+    <img src="{{ post.header.teaser | prepend: '/images/' | prepend: base }}" alt="{{ post.title }}" loading="lazy">
   </div>
   {% else %}
   <div class="pub-card__thumb pub-card__thumb--placeholder">
@@ -17,7 +29,7 @@
       {% if post.paperurl %}
         <a href="{{ post.paperurl }}" target="_blank" rel="noopener">{{ post.title }}</a>
       {% else %}
-        <a href="{{ base }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
+        {{ post.title }}
       {% endif %}
     </h3>
 
@@ -41,7 +53,6 @@
       {% if post.codeurl %}
         <a class="pub-card__btn pub-card__btn--code" href="{{ post.codeurl }}" target="_blank" rel="noopener">Code</a>
       {% endif %}
-      <a class="pub-card__btn pub-card__btn--details" href="{{ base }}{{ post.url }}" rel="permalink">Details</a>
     </div>
   </div>
 </div>

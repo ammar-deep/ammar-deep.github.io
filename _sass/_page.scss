@@ -41,6 +41,12 @@
       color: $light-gray;
       font-size: 2em;
     }
+
+    &--gallery {
+      position: relative;
+      height: 210px;
+      cursor: default;
+    }
   }
 
   &:hover &__thumb img {
@@ -140,13 +146,6 @@
       &:hover { background: #111; color: #fff !important; }
     }
 
-    &--details {
-      background: transparent;
-      color: $primary-color !important;
-      border: 1px solid $primary-color;
-
-      &:hover { background: $primary-color; color: #fff !important; }
-    }
   }
 
   @media (max-width: 560px) {
@@ -158,6 +157,31 @@
       flex: none;
     }
   }
+}
+
+/* ==========================================================================
+   PUBLICATION GALLERY (animated crossfade thumbnails)
+   ========================================================================== */
+
+.pub-card__gallery-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  animation: pub-crossfade calc(var(--img-count, 1) * 3s) ease-in-out infinite;
+  animation-delay: calc(var(--i, 0) * 3s);
+}
+
+.pub-card:hover .pub-card__thumb--gallery .pub-card__gallery-img {
+  animation-play-state: paused;
+}
+
+@keyframes pub-crossfade {
+  0%, 28% { opacity: 1; }
+  33%, 100% { opacity: 0; }
 }
 
 /* ==========================================================================
