@@ -2,12 +2,6 @@
 {% assign base = base_path %}
 
 <div class="project-card{% if post.status == 'ongoing' %} project-card--ongoing{% endif %}">
-  {% if post.header.teaser %}
-  <div class="project-card__thumb">
-    <img src="{{ post.header.teaser | prepend: '/images/' | prepend: base }}" alt="{{ post.title }}" loading="lazy">
-  </div>
-  {% endif %}
-
   <div class="project-card__body">
     <div class="project-card__title">{{ post.title }}</div>
 
