@@ -4,6 +4,8 @@ excerpt: "GAN-based research on few-shot font generation, font family synthesis,
 collection: portfolio
 permalink: /projects/font-generation/
 date: 2021-01-01
+header:
+  teaser: images/Fontnet.png
 ---
 
 **Soongsil University — 2018–2023**

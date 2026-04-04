@@ -4,6 +4,8 @@ excerpt: "Multi-camera 3D perception, monocular depth-based pseudo-LiDAR, autono
 collection: portfolio
 permalink: /projects/3d-sensing-autonomous/
 date: 2023-06-01
+header:
+  teaser: images/pub_placeholder.png
 ---
 
 **DeltaX.ai, Seoul — 2023–2025**

@@ -4,6 +4,8 @@ excerpt: "Unsupervised GAN architecture for content-style disentanglement enabli
 collection: portfolio
 permalink: /projects/controllable-gan/
 date: 2018-09-01
+header:
+  teaser: images/UFFG.png
 ---
 
 **Soongsil University — 2018–2023**

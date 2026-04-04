@@ -4,6 +4,8 @@ excerpt: "27-camera smart factory intrusion and defect detection system, road an
 collection: portfolio
 permalink: /projects/smart-factory-edge-ai/
 date: 2023-09-01
+header:
+  teaser: images/pub_placeholder.png
 ---
 
 **DeltaX.ai, Seoul — 2023–2025**

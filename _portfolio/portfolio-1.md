@@ -4,6 +4,8 @@ excerpt: "Postdoctoral research on drunk/impaired driver detection using thermal
 collection: portfolio
 permalink: /projects/athena/
 date: 2025-11-01
+header:
+  teaser: images/pub_placeholder.png
 ---
 
 **University of Galway — 2025–Present**

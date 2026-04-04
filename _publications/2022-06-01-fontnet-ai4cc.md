@@ -2,10 +2,13 @@
 title: "FontNet: Closing the gap to font designer performance in font synthesis"
 collection: publications
 permalink: /publication/fontnet-ai4cc/
-excerpt: "A CVPR AI4CC workshop paper on style embeddings and font synthesis quality."
+excerpt: "FontNet introduces triplet-loss style-space learning to push font synthesis quality toward professional designer standards."
 date: 2022-06-01
 venue: "AI for Content Creation Workshop, CVPR"
-paperurl: "https://ai4cc.net/#:~:text=with%20Warping%20NODEs-,08,FontNet%3A%20Closing%20the%20gap%20to%20font%20designer%20performance%20in%20font%20synthesis,-09"
+paperurl: "https://openaccess.thecvf.com/content/CVPR2022W/CVFAD/html/Hassan_FontNet_Closing_the_Gap_to_Font_Designer_Performance_in_Font_CVPRW_2022_paper.html"
 citation: "Hassan, A. U., & Choi, J. (2022). <i>FontNet: Closing the gap to font designer performance in font synthesis</i>. AI for Content Creation Workshop at CVPR."
+authors: "<strong>A. U. Hassan</strong>, J. Choi"
+header:
+  teaser: "Fontnet.png"
 ---
-This workshop paper explores style-space learning for font synthesis and moves performance closer to designer-quality results.
+FontNet introduces triplet-loss style-space learning to push font synthesis quality toward professional designer standards.
