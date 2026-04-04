@@ -160,6 +160,150 @@
 }
 
 /* ==========================================================================
+   PROJECT CARDS (Projects page)
+   ========================================================================== */
+
+.project-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.3em;
+  padding: 1.4em 0 1.4em 0;
+  border-bottom: 1px solid $border-color;
+
+  &:last-child { border-bottom: none; }
+
+  &--ongoing {
+    border-left: 3px solid $primary-color;
+    padding-left: 1em;
+  }
+
+  &__thumb {
+    flex: 0 0 140px;
+    width: 140px;
+    height: 105px;
+    overflow: hidden;
+    border-radius: 4px;
+    border: 1px solid $border-color;
+    background: $lighter-gray;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: block;
+    }
+  }
+
+  &__body { flex: 1; min-width: 0; }
+
+  &__title {
+    margin: 0 0 0.3em;
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 1.35;
+    color: $text-color;
+  }
+
+  &__meta {
+    margin: 0 0 0.45em;
+    font-size: 0.82em;
+    color: $gray;
+    display: flex;
+    gap: 0.5em;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  &__org { font-weight: 600; color: $primary-color; }
+
+  &__sep { color: $light-gray; }
+
+  &__period { }
+
+  &__desc {
+    margin: 0 0 0.65em;
+    font-size: 0.88em;
+    color: $dark-gray;
+    line-height: 1.55;
+  }
+
+  &__tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4em;
+  }
+}
+
+.project-tag {
+  display: inline-block;
+  padding: 0.15em 0.6em;
+  border-radius: 20px;
+  background: mix(#fff, $primary-color, 88%);
+  color: darken($primary-color, 10%);
+  border: 1px solid mix(#fff, $primary-color, 55%);
+  font-size: 0.72em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.projects-section-heading {
+  font-size: 1.05em;
+  font-weight: 700;
+  color: $primary-color;
+  margin: 2em 0 0.2em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid mix(#fff, $primary-color, 75%);
+}
+
+.projects-status-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: $primary-color;
+  margin-right: 0.5em;
+  vertical-align: middle;
+  animation: blink-dot 1.8s ease-in-out infinite;
+}
+
+@keyframes blink-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.25; }
+}
+
+.award-item {
+  padding: 0.8em 0;
+  border-bottom: 1px solid $border-color;
+  font-size: 0.9em;
+  line-height: 1.55;
+
+  &:last-child { border-bottom: none; }
+
+  &__title {
+    font-weight: 700;
+    color: $text-color;
+  }
+
+  &__year {
+    display: inline-block;
+    font-size: 0.78em;
+    font-weight: 700;
+    color: $primary-color;
+    background: mix(#fff, $primary-color, 88%);
+    border: 1px solid mix(#fff, $primary-color, 55%);
+    border-radius: 3px;
+    padding: 0.1em 0.5em;
+    margin-left: 0.5em;
+    vertical-align: middle;
+  }
+
+  &__body {
+    color: $dark-gray;
+    margin-top: 0.2em;
+  }
+}
+
+/* ==========================================================================
    PUBLICATION GALLERY (animated crossfade thumbnails)
    ========================================================================== */
 

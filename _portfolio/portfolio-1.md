@@ -4,6 +4,10 @@ excerpt: "Postdoctoral research on drunk/impaired driver detection using thermal
 collection: portfolio
 permalink: /projects/athena/
 date: 2025-11-01
+status: ongoing
+organization: University of Galway, Ireland
+period: Nov 2025 – Present
+tech: "Thermal IR Cameras, VLMs, Open-Vocab Detection, Edge AI, Driver Monitoring, LLaVA, Qwen-VL"
 header:
   teaser: images/pub_placeholder.png
 ---

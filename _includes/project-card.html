@@ -1,0 +1,37 @@
+{% include base_path %}
+{% assign base = base_path %}
+
+<div class="project-card{% if post.status == 'ongoing' %} project-card--ongoing{% endif %}">
+  {% if post.header.teaser %}
+  <div class="project-card__thumb">
+    <img src="{{ post.header.teaser | prepend: '/images/' | prepend: base }}" alt="{{ post.title }}" loading="lazy">
+  </div>
+  {% endif %}
+
+  <div class="project-card__body">
+    <div class="project-card__title">{{ post.title }}</div>
+
+    {% if post.organization %}
+    <p class="project-card__meta">
+      <span class="project-card__org">{{ post.organization }}</span>
+      {% if post.period %}
+      <span class="project-card__sep">·</span>
+      <span class="project-card__period">{{ post.period }}</span>
+      {% endif %}
+    </p>
+    {% endif %}
+
+    {% if post.excerpt %}
+    <p class="project-card__desc">{{ post.excerpt }}</p>
+    {% endif %}
+
+    {% if post.tech %}
+    <div class="project-card__tech">
+      {% assign tech_items = post.tech | split: ", " %}
+      {% for item in tech_items %}
+      <span class="project-tag">{{ item }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</div>

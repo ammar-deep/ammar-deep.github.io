@@ -8,13 +8,48 @@ show_title: false
 
 {% include base_path %}
 
-<div class="notice--primary">
-  Selected projects spanning driver monitoring systems, ADAS, smart factory vision, and generative modeling. More details will be added as work progresses.
+{% assign ongoing   = site.portfolio | where: "status", "ongoing"   | sort: "date" | reverse %}
+{% assign completed = site.portfolio | where: "status", "completed" | sort: "date" | reverse %}
+
+<h4 class="projects-section-heading">
+  <span class="projects-status-dot"></span>Ongoing
+</h4>
+
+{% for post in ongoing %}
+  {% include project-card.html %}
+{% endfor %}
+
+<h4 class="projects-section-heading" style="margin-top:2.5em;">Completed</h4>
+
+{% for post in completed %}
+  {% include project-card.html %}
+{% endfor %}
+
+<h4 class="projects-section-heading" style="margin-top:2.5em;">Honors &amp; Awards</h4>
+
+<div class="award-item">
+  <span class="award-item__title">International Graduate Research Scholarship</span>
+  <span class="award-item__year">2016 &ndash; 2023</span>
+  <div class="award-item__body">Soongsil University, Seoul &mdash; awarded for both M.S. (2016&ndash;2018) and Ph.D. (2018&ndash;2023) studies, covering tuition and a monthly stipend.</div>
 </div>
 
-<div class="grid__wrapper">
-{% for post in site.portfolio %}
-  {% include archive-single.html type="grid" %}
-{% endfor %}
+<div class="award-item">
+  <span class="award-item__title">Best Paper Bronze Award</span>
+  <span class="award-item__year">2020</span>
+  <div class="award-item__body">International Conference on Smart Media and Applications (SMA), 2020.</div>
+</div>
+
+<div class="award-item">
+  <span class="award-item__title">Federal Government Scholarship</span>
+  <span class="award-item__year">2009 &ndash; 2013</span>
+  <div class="award-item__body">International Islamic University, Islamabad &mdash; full scholarship for B.S. in Software Engineering.</div>
+</div>
+
+<h4 class="projects-section-heading" style="margin-top:2.5em;">Patent</h4>
+
+<div class="award-item">
+  <span class="award-item__title">Method and Apparatus for Generating Font Family Using Deep Learning</span>
+  <span class="award-item__year">2022</span>
+  <div class="award-item__body">Hassan, A. U. &amp; Choi, J. &mdash; Soongsil University Industry-Academic Cooperation Foundation. Patent No. 2-2006-027849-9 (Korea).</div>
 </div>
 

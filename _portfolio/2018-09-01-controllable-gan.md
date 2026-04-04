@@ -4,6 +4,10 @@ excerpt: "Unsupervised GAN architecture for content-style disentanglement enabli
 collection: portfolio
 permalink: /projects/controllable-gan/
 date: 2018-09-01
+status: completed
+organization: Soongsil University, Seoul
+period: 2018 – 2023
+tech: "GANs, Domain Translation, Style Transfer, Facial Attribute Transfer, Unsupervised Learning, Disentanglement"
 header:
   teaser: images/UFFG.png
 ---
