@@ -6,7 +6,7 @@ author_profile: true
 show_title: false
 ---
 
-My full name is Muhammad Ammar Ul Hassan, but you can call me Ammar. I'm a computer vision researcher and engineer based in Galway, Ireland. I did my PhD at [Soongsil University](https://www.ssu.ac.kr/eng/) in Seoul, spent time working on real-world AI systems and their deployment at a startup, and I'm currently a Postdoctoral Researcher at the [University of Galway](https://www.universityofgalway.ie/). Feel free to reach out if anything here overlaps with what you're working on.
+My full name is Muhammad Ammar Ul Hassan, but you can call me Ammar. I'm a computer vision researcher and engineer based in Galway, Ireland. I did my PhD at [Soongsil University](https://www.ssu.ac.kr/eng/) in Seoul, spent time working on real-world AI systems and their deployment at [DeltaX.ai](https://deltax.ai/), and I'm currently a Postdoctoral Researcher at the [University of Galway](https://www.universityofgalway.ie/). Feel free to reach out if anything here overlaps with what you're working on.
 
 <div class="research-areas">
   <span class="area-badge">Thermal DMS</span>
@@ -18,6 +18,12 @@ My full name is Muhammad Ammar Ul Hassan, but you can call me Ammar. I'm a compu
   <span class="area-badge">Diffusion Models</span>
 </div>
 
+#### A bit more about me
+
+I'm originally from the beautiful city of Islamabad, Pakistan. I spent nine years living in Seoul, South Korea, which was a great experience on many levels. I moved to Galway, Ireland in late 2025 and have been enjoying the city and settling into its warm and welcoming community.
+
+I'm a proud Manchester United supporter and have been following the club since the Sir Alex Ferguson years. Those were special times and I'm still very much hoping for more titles ahead, fingers crossed.
+
 #### What I do
 
 My work has covered generative models, driver monitoring, 3D scene understanding, and edge deployment. Different problems, but with the same underlying interest: vision systems that work reliably in practice.
@@ -28,7 +34,7 @@ Right now I'm part of the [ATHENA project](https://athena-chips-ju.eu/), focusin
 
 At [DeltaX.ai](https://deltax.ai/) in Seoul, I worked on AI problems related to automobiles and smart factories.
 
-On the automotive side, the work included in-cabin monitoring (seatbelt detection, drowsiness, occupancy from IR cameras), a road scene segmentation pipeline for ADAS, and deploying the resulting models on Jetson and Hailo edge hardware. A significant part of this involved getting models that performed well in training to run efficiently on constrained hardware without losing accuracy on what mattered.
+On the automotive side, the work included in-cabin monitoring (seatbelt detection, drowsiness, occupancy from IR cameras), a road scene segmentation pipeline for ADAS, and deploying the resulting models on Jetson and TI edge hardware. A significant part of this involved getting models that performed well in training to run efficiently on constrained hardware without losing accuracy on what mattered.
 
 For smart factories, I worked on a 27-camera vision system covering human intrusion detection and surface inspection, including crack and hole detection.
 
@@ -47,12 +53,6 @@ Driver monitoring and in-cabin perception, VLM and LLM evaluation for real-world
 - **Ph.D.** Computer Science & Engineering, Soongsil University, Seoul (2018–2023), advised by [Prof. Jaeyoung Choi](https://scholar.google.com/citations?user=YJ7fWWgAAAAJ&hl=en)
 - **M.S.** Computer Science & Engineering, Soongsil University (2016–2018) · International Graduate Research Scholar
 - **B.S.** Software Engineering, International Islamic University, Pakistan (2009–2013) · Federal Government Scholar
-
-#### A bit more about me
-
-I'm originally from Islamabad, Pakistan. I spent nine years living in Seoul, South Korea, which was a great experience on many levels. I moved to Galway, Ireland in late 2025 and have been enjoying the city and finding my way around its warm and welcoming community.
-
-I'm a proud Manchester United supporter and have been following the club since the Sir Alex Ferguson years. Those were special times and I'm still very much hoping for more titles ahead, fingers crossed.
 
 #### Get in touch
 
