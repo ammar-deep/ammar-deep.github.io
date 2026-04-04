@@ -8,7 +8,7 @@ show_title: false
 
 <div class="intro-text" markdown="1">
 
-I'm an AI engineer and researcher, currently working as a Postdoctoral Researcher at the [University of Galway](https://www.universityofgalway.ie/) on the ATHENA project. The project focuses on detecting drunk and impaired drivers using multimodal sensors — primarily thermal IR cameras — and deploying the resulting models on edge devices.
+I'm an AI engineer and researcher, currently working as a Postdoctoral Researcher at the [University of Galway](https://www.universityofgalway.ie/) on the ATHENA project. The project focuses on detecting drunk and impaired drivers using multimodal sensors primarily thermal IR cameras and deploying the resulting models on edge devices.
 
 My PhD was at [Soongsil University](https://www.ssu.ac.kr/eng/) in Seoul, where I worked on generative adversarial networks for domain translation, style transfer, and character skeletonization. After graduating I joined [DeltaX.ai](https://deltax.ai/) in Seoul, building computer vision systems for the automotive industry: in-cabin monitoring (ICMS), advanced driver assistance (ADAS), and smart factory inspection.
 
