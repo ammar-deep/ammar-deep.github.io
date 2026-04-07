@@ -1,13 +1,13 @@
 ---
 title: "3D Sensing, Pseudo-LiDAR & Autonomous Systems"
-excerpt: "Multi-camera 3D perception, monocular depth-based pseudo-LiDAR, autonomous wheelchair prototype, and gesture-based human-robot interaction."
+excerpt: "Multi-camera 3D perception, monocular depth-based pseudo-LiDAR."
 collection: portfolio
 permalink: /projects/3d-sensing-autonomous/
 date: 2023-06-01
 status: completed
 organization: DeltaX.ai, Seoul
 period: 2023 – 2025
-tech: "LiDAR, Pseudo-LiDAR, Monocular Depth, 3D Detection, SLAM, Autonomous Wheelchair, HRI"
+tech: "LiDAR, Pseudo-LiDAR, Monocular Depth, 3D Detection (pointcloud, image, and fusion based)"
 header:
   teaser: images/pub_placeholder.png
 ---

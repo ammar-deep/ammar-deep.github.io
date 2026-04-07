@@ -1,6 +1,6 @@
 ---
 title: "Controllable Unsupervised Image Generation (PhD Research)"
-excerpt: "Unsupervised GAN architecture for content-style disentanglement enabling image style transfer, domain translation, and attribute manipulation — without label supervision."
+excerpt: "Unsupervised GAN architecture for content-style disentanglement enabling image style transfer, domain translation, and attribute manipulation without label supervision."
 collection: portfolio
 permalink: /projects/controllable-gan/
 date: 2018-09-01

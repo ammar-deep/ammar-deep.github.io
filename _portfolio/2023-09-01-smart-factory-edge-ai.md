@@ -1,6 +1,6 @@
 ---
 title: "Smart Factory Vision & Edge AI Deployment"
-excerpt: "27-camera smart factory intrusion and defect detection system, road anomaly detection, gaze estimation, and model deployment on Jetson, TI, and Hailo hardware."
+excerpt: "27-camera smart factory human intrusion and defect detection system, road anomaly detection, gaze estimation, and model deployment on Jetson, TI, and Hailo hardware."
 collection: portfolio
 permalink: /projects/smart-factory-edge-ai/
 date: 2023-09-01
